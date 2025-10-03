@@ -9,5 +9,5 @@ export function ProductCategoryRow({ name }) {
         <strong>{name}</strong>
       </td>
     </tr>
-  )
+  );
 }

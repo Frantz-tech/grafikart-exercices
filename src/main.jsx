@@ -1,11 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+/* eslint-disable no-unused-vars */
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './exo 1 produits en stocks/App';
+import './exo 1 produits en stocks/index.css';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
   </StrictMode>
-)
+);
