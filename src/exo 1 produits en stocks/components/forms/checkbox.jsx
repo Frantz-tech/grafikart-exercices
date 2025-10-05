@@ -5,7 +5,7 @@
  * @param {string} id
  */
 
-import '../../index.css';
+import '../../../index.css';
 
 export function Checkbox({ checked, onChange, label, id }) {
   return (
