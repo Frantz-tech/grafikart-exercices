@@ -6,25 +6,23 @@ import '../../index.css';
  * @returns
  */
 
-import { forwardRef, useId } from 'react';
+import { useId } from 'react';
 
-export const Input = forwardRef(function Input({ placeholder, value, onChange, label }, ref) {
+export function Input({ placeholder, value, onChange, label }) {
   const id = useId();
-  console.log(ref);
 
   return (
-    <div>
+    <div className="">
       <label className="form-label" htmlFor={id}>
         {label}
       </label>
       <input
-        ref={ref}
         id={id}
-        className="border p-1 form-control"
+        className="border-2  border-black p-1 form-control"
         value={value}
         placeholder={placeholder}
         onChange={e => onChange(e.target.value)}
       />
     </div>
   );
-});
+}
